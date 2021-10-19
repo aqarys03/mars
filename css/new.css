@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    background-color: black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.header1{
+    margin-top: -49px;
+    height: 720px;
+    background: url('../img/image\ 16.png') no-repeat center top / cover;
+}
+.h1{
+    padding-top: 57px;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    font-weight: 700;
+}
+.lux{
+    padding-top: 203px;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 26px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    display: flex;
+    color: black;
+    font-size: 18px;
+    padding-top: 24px;
+    font-weight: 500;
+    padding-bottom: 180px;
+}
+.sneak1{
+    width: 235px;
+}
+.cost1{
+    padding-top: 10px;
+    font-weight: 700;
+}
+.sneak2{
+    padding-left: 121px;
+    padding-right: 80px;
+    width: 276px;
+}
+.cost2{
+    font-weight: 700;
+    padding-top: 30px;
+}
+.sneak3{
+    width: 246px;
+}
+.cost3{
+    font-weight: 700;
+    padding-top: 30px;
+}
+.about2{
+    height: 810px;
+    background: url('../img/Desktop\ -\ 8.png') no-repeat center top / cover;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+}
+.contacts{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-top: 94px;
+}
+.logo2{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding-right: 105px;
+    top: -157px;
+}
+.logos{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding-right: 92px;
+    top: -147px;
+}
+@media screen and (max-width: 575px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 285px;
+        margin: 0 auto;
+    }
+    .header{
+        height: 105px;
+    }
+    .header1{
+        height: 500px;
+    }
+    .h1{
+        font-size: 40px;
+    }
+    .lux{
+        padding-top: 50px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .q1{
+        width: 50%;
+    }
+    .gallery{
+        display: block;
+        line-height: 100px;
+        transform: translate(25%);
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+        line-height: 200px;
+        margin-top: -620px;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .sneak1{
+        width: 300px;
+    }
+    .sneak2{
+        transform: translate(-5%);
+    }
+    .cost1{
+        display: none;
+    }
+    .cost2{
+        display: none;
+    }
+    .cost3{
+        display: none;
+    }
+    .footer{
+        height: 280px;
+    }
+    .contacts{
+        padding-top: 150px;
+    }
+    .logos{
+        display: none;
+    }
+    .logo2{
+        transform: translate(-10%, -80%);
+    }
+    .about2{
+        height: 215px;
+    }
+}

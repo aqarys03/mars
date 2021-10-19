@@ -1,0 +1,101 @@
+body{
+    background-color: #F6F6F6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    background-color: black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.sneakers{
+    display: flex;
+    justify-content: center;
+}
+.desc{
+    text-align: center;
+    font-size: 24px;
+}
+.name{
+    font-weight: 500;
+}
+.cost{
+    margin-top: -15px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    border: black 3px solid;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 30px 69px 30px 69px;
+}
+.btn{
+    text-align: center;
+    padding-bottom: 95px;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+}
+.contacts{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-top: 94px;
+    font-weight: 400;
+}
+.logo2{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding-right: 105px;
+    top: -157px;
+}
+.logos{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding-right: 92px;
+    top: -147px;
+}
+@media screen and (max-width: 575px){
+    .container{
+        width: 285px;
+        margin: 0 auto;
+    }
+    .header{
+        height: 105px;
+    }
+    .q1{
+        width: 70%;
+    }
+    .desc{
+        font-size: 17px;
+    }
+    .btn a{
+        padding: 15px 50px 15px 50px;
+    }
+    .footer{
+        height: 280px;
+    }
+    .contacts{
+        padding-top: 150px;
+    }
+    .logos{
+        display: none;
+    }
+    .logo2{
+        transform: translate(-10%, -80%);
+    }
+}
